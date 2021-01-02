@@ -1,3 +1,10 @@
+# you need to create db_settings.py file with following content:
+# sql_server = "your sql server name"
+# sql_database = "database name where bot create tables"
+# sql_schema = "schema name to group bot tables"
+# sql_user = "user name"
+# sql_password = "password"
+
 from typing import Optional
 
 from pyodbc import Connection, connect, Cursor, Row
